@@ -193,6 +193,8 @@ while True:
 
 		elif login=="r":
 			ip1=input("Enter IP : ")
+			# bug: if ip is not in network and wrong ip.
+			# Write code.
 			#cleare drawback of typing password in each step.
 			os.system(f"ssh-copy-id root@{ip1}")
 			#ip=os.system(f"echo '{ip1}'")
